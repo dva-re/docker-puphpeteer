@@ -1,5 +1,5 @@
 FROM php:7.4
-ARG NODE_VERSION
+ENV NODE_VERSION 12.0.0
 
 # Fixed for now. Could be auto-updated or passed in as well.
 ENV NVM_VERSION v0.37.2
